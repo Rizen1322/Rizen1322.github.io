@@ -1,0 +1,189 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+nav{
+    width: 100%;
+    height: 60px;
+    background: #344051;
+    position: fixed;
+}
+
+.logo{
+    color: #fff;
+    font-size: 28px;
+    line-height: 62px;
+    padding-left: 388px;
+    float: left;
+    -webkit-animation: comming 2s ease;
+    -0-animation: comming 2s ease;
+    animation: comming 2s ease;
+}
+
+main{
+    width: 100%;
+    height: 100%;
+}
+
+.menu{
+    float: left;
+    padding-left: 432px;
+}
+
+.menu li{
+    float: left;
+    line-height: 37px;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    -webkit-animation: topshift 0.4s ease forwards;
+    -o-animation: topshift 0.4s ease forwards;
+    animation: topshift 0.4s ease forwards;
+    opacity: 0;
+}
+
+.main{
+    width: 100%;
+    height: 100%;
+    background: url(https://catherineasquithgallery.com/uploads/posts/2021-03/1614627474_13-p-fon-dlya-fotoshopa-lyudi-14.png) 90% 100%/auto 85% no-repeat , url(https://kartinkin.net/uploads/posts/2021-07/1627143551_23-kartinkin-com-p-tsifrovoi-fon-belii-krasivo-25.png) center/cover no-repeat;
+}
+
+.title__container{
+     float: left;
+    margin: 432px 0px 0px 404px;
+    color: #2c384a;
+    text-align: center;
+    opacity: 0;
+    -webkit-animation: title-move 1s ease forwards;
+    -o-animation: title-move 1s ease forwards;
+    animation: title-move 1s ease forwards;
+    -webkit-animation-delay: 2s;
+    -o-animation-delay: 2s;
+    animation-delay: 2s;
+}
+
+.title__container h1{
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.title__container h4{
+       margin-top: 40px;
+    font-size: 22px;
+    color: #79818d;
+}
+
+.title__container input{
+      height: 40px;
+    text-align: center;
+    border: 2px solid #6d7682;
+    background: none;
+    border-radius: 5px;
+    color: #6d7682;
+    font-size: 13px;
+    padding: 0px 16px;
+    margin: 20px 14px 0px 14px
+}
+
+
+.menu li a{
+    transition: all 0.1s;
+    color: white;
+    transform: scale(1);
+    display: inline-block;
+}
+
+.menu li a:visited{
+    color: white;
+}
+
+.menu li a:hover{
+    color: #e88604;
+}
+
+.menu li a:active{
+    transform: scale(1.1);
+}
+
+.title__container input{
+    transition: all 0.2s;
+    transform: scale(1);
+}
+
+.title__container input:hover{
+    background: #344051;
+    color: white
+}
+
+.title__container input:active{
+    transform: scale(1.1);
+}
+
+@keyframes comming{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
+
+@keyframes topshift{
+    from{
+        opacity: 0;
+        margin-top: -80px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 0px;
+    }
+}
+
+@keyframes title-move{
+    from{
+        opacity: 0;
+        margin-left: -500px;
+    }
+    to{
+        opacity: 1;
+        margin-top: 432px;
+    }
+}
+
+
+
+
+
+.menu li:nth-child(2){
+    animation-delay: 0.4s;
+}
+
+.menu li:nth-child(3){
+    animation-delay: 0.8s;
+}
+
+.menu li:nth-child(4){
+    animation-delay: 1.2s;
+}
+
+.menu li:nth-child(5){
+    animation-delay: 1.6s;
+}
+
+.menu li:nth-child(6){
+    animation-delay: 2s;
+}
+
+
+.About{
+    float: left;
+    padding-left: 432px;
+}
+
+
+
+
+
+
+
